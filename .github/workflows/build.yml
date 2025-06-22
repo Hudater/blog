@@ -54,13 +54,13 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@4
+        uses: actions/checkout@v4
 
         with:
           fetch-depth: 0  # for posts's lastmod
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@1
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.4.4
           bundler-cache: true

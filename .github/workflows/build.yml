@@ -64,12 +64,16 @@ jobs:
         with:
           ruby-version: 3.4.4
           bundler-cache: true
-          run: JEKYLL_ENV=production bundle exec jekyll build
+
+      - name: Install dependencies
+        run: bundle install
+
+      - name: Build site with Jekyll
+        run: JEKYLL_ENV=production bundle exec jekyll build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
           publish_branch: gh-pages
-
-

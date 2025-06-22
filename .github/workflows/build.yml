@@ -1,8 +1,46 @@
-name: 'Build & Release'
+# name: 'Build & Release'
+# on:
+#   push:
+#     branches:
+#       - master
+#       - main
+#     paths-ignore:
+#       - .gitignore
+#       - README.md
+#       - LICENSE
+
+# jobs:
+#   build-release:
+
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b  # 3.2.2
+
+#         with:
+#           fetch-depth: 0  # for posts's lastmod
+
+#       - name: Setup Ruby
+#         uses: ruby/setup-ruby@2654679fe7f7c29875c669398a8ec0791b8a64a1  # 1.215.0
+#         with:
+#           ruby-version: 3.2.2
+#           bundler-cache: true
+
+#       - name: Check baseurl
+#         run: |
+#           baseurl="$(grep '^baseurl:' _config.yml | sed "s/.*: *//;s/['\"]//g;s/#.*//")"
+#           if [[ -n $baseurl ]]; then
+#             echo "BASE_URL=$baseurl" >> $GITHUB_ENV
+#           fi
+
+#       - name: Deploy
+#         run: bash tools/release.sh
+
+name: 'Build & Push'
 on:
   push:
     branches:
-      - master
       - main
     paths-ignore:
       - .gitignore
@@ -16,23 +54,20 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b  # 3.2.2
+        uses: actions/checkout@4
 
         with:
           fetch-depth: 0  # for posts's lastmod
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@2654679fe7f7c29875c669398a8ec0791b8a64a1  # 1.215.0
+        uses: ruby/setup-ruby@1
         with:
-          ruby-version: 3.2.2
+          ruby-version: 3.4.4
           bundler-cache: true
 
-      - name: Check baseurl
-        run: |
-          baseurl="$(grep '^baseurl:' _config.yml | sed "s/.*: *//;s/['\"]//g;s/#.*//")"
-          if [[ -n $baseurl ]]; then
-            echo "BASE_URL=$baseurl" >> $GITHUB_ENV
-          fi
-
       - name: Deploy
-        run: bash tools/release.sh
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+

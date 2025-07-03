@@ -28,8 +28,8 @@ url: "https://blog.hudater.dev"
 github:
   username: hudater # change to your GitHub username
 
-twitter:
-  username: hudater_ # change to your Twitter username
+# twitter:
+#   username: hudater_ # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -38,7 +38,7 @@ social:
   email: harshit@hudater.dev # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/hudater_ # change to your Twitter homepage
+    # - https://twitter.com/hudater_ # change to your Twitter homepage
     - https://github.com/hudater # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username

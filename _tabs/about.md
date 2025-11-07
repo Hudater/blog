@@ -6,7 +6,7 @@ order: 4
 
 ## Hello there
 
-I am Harshit Mani Tripathi, going by Hudater on the web. I am a homelab enthusiast, running and learning DevOps, Automation and Security on my multi-tenancy cluster of servers (both On-Prem and Cloud)
+I am Harshit Mani Tripathi, going by Hudater on the web. I am a homelab enthusiast, learning DevOps, Automation and Security on my multi-tenancy cluster of servers (On-Prem and Cloud)
 
 ## Contact
 

@@ -28,8 +28,8 @@ url: "https://blog.hudater.dev"
 github:
   username: hudater # change to your GitHub username
 
-# twitter:
-#   username: hudater_ # change to your Twitter username
+twitter:
+  username: hudater_ # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -98,7 +98,8 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://avatars.githubusercontent.com/u/55456200?v=4
+# avatar: https://avatars.githubusercontent.com/u/55456200?v=4
+avatar: https://media.licdn.com/dms/image/v2/D4D03AQHPaP3mpp45MQ/profile-displayphoto-scale_400_400/B4DZhm8m8wHsA0-/0/1754073822953?e=1764201600&v=beta&t=GC5x_w4qEvqHE-Y6ZhOTqcJFsiClxL2de-Tco4DdARg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

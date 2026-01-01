@@ -38,7 +38,7 @@ social:
   email: harshit@hudater.dev # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/hudater_ # change to your Twitter homepage
+    - https://x.com/hudater_ # change to your Twitter homepage
     - https://github.com/hudater # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -99,7 +99,7 @@ cdn:
 
 # the avatar on sidebar, support local or CORS resources
 # avatar: https://avatars.githubusercontent.com/u/55456200?v=4
-avatar: https://media.licdn.com/dms/image/v2/D4D03AQHPaP3mpp45MQ/profile-displayphoto-scale_400_400/B4DZhm8m8wHsA0-/0/1754073822953?e=1764201600&v=beta&t=GC5x_w4qEvqHE-Y6ZhOTqcJFsiClxL2de-Tco4DdARg
+avatar: https://res.cloudinary.com/djsasyvfl/image/upload/v1764407361/cropped_circle_image_pz7ua1.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

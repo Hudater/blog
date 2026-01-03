@@ -1,1 +1,9 @@
+---
+title: Title here
+date: 2099-07-02 12:00:00 -500
+categories: [homelab, architecture]
+comments: true
+pin: false
+tags: [servers, proxmox, mesh vpn, hybrid cloud, architecture diagram] # TAG names should always be lowercase
+---
 

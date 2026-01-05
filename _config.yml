@@ -26,22 +26,20 @@ description: >- # used by seo meta and the atom feed
 url: "https://blog.hudater.dev"
 
 github:
-  username: hudater # change to your GitHub username
+  username: hudater
 
 twitter:
-  username: hudater_ # change to your Twitter username
+  username: hudater_
 
 social:
-  # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Harshit Mani Tripathi
-  email: harshit@hudater.dev # change to your email address
+  email: harshit@hudater.dev
   links:
     # The first element serves as the copyright owner's link
-    - https://x.com/hudater_ # change to your Twitter homepage
-    - https://github.com/hudater # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+    - https://hudater.dev
+    - https://github.com/hudater
+    - https://x.com/hudater_
     - https://www.linkedin.com/in/hudater
 
 # Site Verification Settings

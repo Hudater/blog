@@ -59,10 +59,8 @@ webmaster_verifications:
 analytics:
   google:
     id: G-64HN6PHXT3
-    # id: #ok
   goatcounter:
     id: hudater
-    # id: #ok
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
@@ -75,8 +73,8 @@ analytics:
     id: # fill in your Fathom Site ID
 
 # Page views settings
-pageviews:
-  provider: goatcounter
+# pageviews:
+#   provider: goatcounter
 
 # Prefer color scheme setting.
 #

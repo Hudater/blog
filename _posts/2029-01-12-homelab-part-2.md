@@ -1,7 +1,7 @@
 ---
 title: Homelab Part 2 - Hardware, Locations, and Design Goals
 layout: post
-date: 2026-01-10 05:30:00 +0530
+date: 2029-01-10 05:30:00 +0530
 categories: [homelab, architecture]
 comments: true
 pin: true

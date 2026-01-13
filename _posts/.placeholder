@@ -5,7 +5,7 @@ date: 2099-07-02 12:00:00 +0530
 categories: [homelab, architecture]
 comments: true
 pin: false
-tags: [servers, proxmox, mesh vpn, hybrid cloud, architecture diagram] # TAG names should always be lowercase
+tags: [servers, proxmox, mesh vpn, hybrid cloud] # TAG names should always be lowercase
 image:
   path: "https://res.cloudinary.com/djsasyvfl/image/upload/v1767633860/Hudater_Homelab_v1.0_a2qotp.svg"
   alt: "Homelab Architecture Diagram"

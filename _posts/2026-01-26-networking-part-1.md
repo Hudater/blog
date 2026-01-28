@@ -18,14 +18,14 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768907490094/TEkoHSA
 title: "Networking Fundamentals: Understanding Network Devices (1/4)"
 layout: post
 date: 2026-01-26 04:50:00 +0530
-categories: [networking-series, devices]
+categories: [chaicode, networking-series]
 comments: true
 pin: false
 # tags: [servers, proxmox, homelab, hybrid cloud, architecture diagram]
 tags:
   - networks
   - devices
-  - homelab
+  - chaicode
 image:
   path: "https://res.cloudinary.com/djsasyvfl/image/upload/v1769382941/diagram-export-1-26-2026-4_44_52-AM_oo9jqx.png"
   alt: "Home Network Diagram"

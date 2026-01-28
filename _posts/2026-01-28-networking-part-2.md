@@ -18,14 +18,14 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768907490094/TEkoHSA
 title: "DNS Record Types: Names and Pointers (2/4)"
 layout: post
 date: 2026-01-28 19:30:00 +0530
-categories: [networking-series, dns]
+categories: [chaicode, networking-series]
 comments: true
 pin: false
 # tags: [servers, proxmox, homelab, hybrid cloud, architecture diagram]
 tags:
   - networks
   - dns
-  - homelab
+  - chaicode
 image:
   path: "https://res.cloudinary.com/djsasyvfl/image/upload/v1769609153/2a488dc4-25f6-4e22-a0d2-8733f8f25b36.png"
   alt: "Hudater.dev Domain Setup"

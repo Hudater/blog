@@ -15,9 +15,9 @@ saveAsDraft: false
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768907490094/TEkoHSA4S.jpg?auto=format
 
 ## Jekyll
-title: "How DNS Actually Works: Root Servers to Your Browser (3/4)"
+title: "How DNS Actually Works: Root Servers to Your Browser (3/6)"
 layout: post
-date: 2026-01-28 19:30:00 +0530
+date: 2026-01-29 03:00:00 +0530
 categories: [chaicode, networking-series]
 comments: true
 pin: false

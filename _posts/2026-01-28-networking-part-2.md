@@ -15,7 +15,7 @@ saveAsDraft: false
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768907490094/TEkoHSA4S.jpg?auto=format
 
 ## Jekyll
-title: "DNS Record Types: Names and Pointers (2/4)"
+title: "DNS Record Types: Names and Pointers (2/6)"
 layout: post
 date: 2026-01-28 19:30:00 +0530
 categories: [chaicode, networking-series]

@@ -15,7 +15,7 @@ saveAsDraft: false
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768907490094/TEkoHSA4S.jpg?auto=format
 
 ## Jekyll
-title: "Networking Fundamentals: Understanding Network Devices (1/4)"
+title: "Networking Fundamentals: Understanding Network Devices (1/6)"
 layout: post
 date: 2026-01-26 04:50:00 +0530
 categories: [chaicode, networking-series]

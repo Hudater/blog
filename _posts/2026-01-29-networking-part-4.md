@@ -17,7 +17,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768907490094/TEkoHSA
 ## Jekyll
 title: "cURL: The Internet, Stripped of Its UI (4/6)"
 layout: post
-date: 2026-01-29 03:00:00 +0530
+date: 2026-01-29 06:30:00 +0530
 categories: [chaicode, networking-series]
 comments: true
 pin: false

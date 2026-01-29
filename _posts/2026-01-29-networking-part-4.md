@@ -2,7 +2,7 @@
 ## Hashnode
 slug: networking-part-4
 domain: hashnode.hudater.dev
-subtitle: DNS Record Types Explained
+subtitle: "cURL: The Internet, Stripped of Its UI"
 enableToc: true
 saveAsDraft: false
 

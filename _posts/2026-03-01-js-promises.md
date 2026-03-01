@@ -151,7 +151,7 @@ Just like whichever button the maintainer clicks first decides your PR.
 
 ```js
 resolve("LGTM 🎉"); // PR merged
-reject("Changes requested ❌"); // PR closed
+reject("Get a life"); // PR closed
 ```
 
 The moment one of the function runs, the state of your Promise changes:

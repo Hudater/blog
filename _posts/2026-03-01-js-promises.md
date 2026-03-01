@@ -67,9 +67,9 @@ tags:
   - js
   - promises
   - async
-# image:
-#   path: "https://res.cloudinary.com/djsasyvfl/image/upload/v1767633860/Hudater_Homelab_v1.0_a2qotp.svg"
-#   alt: "Homelab Architecture Diagram"
+image:
+  path: "https://res.cloudinary.com/djsasyvfl/image/upload/v1772367469/21b11c46-3d90-4716-9ec7-15bef8904d6d.png"
+  alt: "Promises Flow in JS"
 ---
 
 > GSoC season is approaching
